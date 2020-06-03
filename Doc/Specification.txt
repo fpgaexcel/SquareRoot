@@ -1,0 +1,17 @@
+FPGA SquareRoot Module/Entity Specification
+
+(1) Require a parameterisable input range
+(2) Require a parameterisable output precision
+(3) Executes in a pipelined fashion i.e supports multiple square root requests in flight at any one time
+(4) Supports output data validation
+
+Examples:
+ArgWidth 8
+ArgFractionalWidth 8
+OutputWidth = ArgWidth/2
+OutputFractionalWidth = 
+Max Input is 255.99609375 => F_F.F_F
+Max Output is 15. => F.F_F_F_8
+
+
+
