@@ -13,5 +13,9 @@ OutputFractionalWidth =
 Max Input is 255.99609375 => F_F.F_F
 Max Output is 15. => F.F_F_F_8
 
+https://www.edaplayground.com/x/2KGf
+
+
+
 
 
